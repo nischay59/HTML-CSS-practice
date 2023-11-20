@@ -1,12 +1,23 @@
 *{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
     color: white;
 }
-.nev-bar{
-    background-color: aqua;
-    height: 100px;
-    /* width: 300px; */
+
+html,body{
+    height: 100%;
+    width: 100%;
 }
-body{
-    background-color: black;
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav-bar{
+    margin-bottom: 4px solid white;
+    z-index: 1;
 }
